@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    padding: 20px 20px;
+}
+
+header p {
+    font-size: 14px;
+}
+
+.quantidade {
+    height: 20px;
+    width: 20px;
+    background-color: #5F0A87;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.carrinho-de-compras {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+main {
+    height: calc(100vh - 68px - 59px);
+    display: flex;
+}
+
+
+.container-esq {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.container-esq img {
+    width: 80%;
+    max-width: 400px;
+}
+
+.container-dir {
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+  
+}
+
+.container-dir h2{
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: 20px;
+
+}
+
+.container-infos {
+   
+    display: flex;
+    gap: 12px;
+    margin: 20px;
+    
+}
+
+.container-dir h3,
+.container-dir h4{
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+
+.container-dir button {
+    
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #5F0A87;
+    cursor: pointer;
+    
+}
+
+.container-dir button:hover{
+    transform: scale(1.03);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid gray;
+}
+
+@media (max-width: 700px){
+    main{
+        height: auto;
+        flex-direction: column;
+    }
+
+    .container-esq{
+        height: 500px;
+        width: 100%;
+    }
+
+    .container-esq img {
+        height: 80%;
+        width: auto;
+        object-fit: contain;
+    }
+
+    .container-dir {
+        height: 500px;
+        width: 100%;
+        align-items: center;
+    }
+
+    .container-dir h2{
+        margin-right: 30px;
+    
+    }
+
+}
+
+ 
