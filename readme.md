@@ -1,5 +1,5 @@
 # 🦋 E-commerce de perfumaria 
-Esse site foi feito junto com um curso da Salinha do professor João Pedro, fiz algumas mudanças para treinar os códigos<br>
+Esse site foi feito junto com  curso da Salinha do professor João Pedro, fiz algumas mudanças para treinar os códigos<br>
 
 ## 🚀 Tecnologias utilizadas
 
